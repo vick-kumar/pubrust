@@ -1,0 +1,118 @@
+{
+  "Bradleys": {
+    "Track Bradley APC": true
+  },
+  "Color-Hex Codes": {
+    "Airdrops": "#ff00ff",
+    "Animals": "#0000ff",
+    "AutoTurrets": "#ffff00",
+    "Backpacks": "#c0c0c0",
+    "Box": "#ff00ff",
+    "Bradley": "#ff00ff",
+    "Collectibles": "#ffff00",
+    "Corpses": "#ffff00",
+    "Distance": "#ffa500",
+    "Health": "#ff0000",
+    "Helicopters": "#ff00ff",
+    "Loot": "#ffff00",
+    "Murderers": "#000000",
+    "Online Dead Player": "#ff0000",
+    "Online Player": "#ffffff",
+    "Resources": "#ffff00",
+    "Scientists": "#ffff00",
+    "Sleeping Bags": "#ff00ff",
+    "Sleeping Dead Player": "#ff0000",
+    "Sleeping Player": "#00ffff",
+    "Stash": "#ffffff",
+    "Tool Cupboards": "#000000",
+    "Zombies": "#ff0000"
+  },
+  "Drawing Distances": {
+    "Airdrop Crates": 400.0,
+    "Animals": 200,
+    "Boxes": 100,
+    "Collectibles": 100,
+    "Loot Containers": 150,
+    "Player Corpses": 200,
+    "Players": 500,
+    "Resources (Ore)": 200,
+    "Sleeping Bags": 250,
+    "Stashes": 250,
+    "Tool Cupboards": 100,
+    "Turrets": 100
+  },
+  "Drawing Methods": {
+    "Draw Arrows On Players": false,
+    "Draw Boxes": false,
+    "Draw Text": true
+  },
+  "Group Limit": {
+    "Dead Color": "#ff0000",
+    "Draw Distant Players With X": true,
+    "Group Color Basic": "#ffff00",
+    "Group Colors": [
+      {
+        "0": "red",
+        "1": "green",
+        "2": "blue",
+        "3": "orange",
+        "4": "yellow"
+      }
+    ],
+    "Height Offset [0.0 = disabled]": 0.0,
+    "Limit": 4,
+    "Range": 50.0,
+    "Use Group Colors Configuration": true
+  },
+  "GUI": {
+    "Anchor Max": "0.810 0.148",
+    "Anchor Min": "0.667 0.020"
+  },
+  "Helicopters": {
+    "Show Rotors Health": false,
+    "Track Helicopters": true
+  },
+  "Options": {
+    "Draw Empty Containers": true,
+    "Show Airdrop Contents": false,
+    "Show Barrel And Crate Contents": false,
+    "Show Resource Amounts": true,
+    "Show Stash Contents": false,
+    "Show X Items In Backpacks [0 = amount only]": 3
+  },
+  "Player Movement Tracker": {
+    "Draw Time": 60.0,
+    "Enabled": false,
+    "Max Reporting Distance": 200.0,
+    "Overlap Reduction Distance": 5.0,
+    "Positions Expire After X Seconds": 600,
+    "Track Admins": false,
+    "Update Tracker Every X Seconds": 1.0
+  },
+  "Settings": {
+    "Chat Command": "radar",
+    "Deactivate Radar After X Minutes": 0,
+    "Deactivate Radar After X Seconds Inactive": 300.0,
+    "Default Distance": 500.0,
+    "Default Refresh Time": 5.0,
+    "Dropped Item Exceptions": [
+      "bottle",
+      "planner",
+      "rock",
+      "torch",
+      "can.",
+      "arrow."
+    ],
+    "Latency Cap In Milliseconds (0 = no cap)": 1000.0,
+    "Objects Drawn Limit (0 = unlimited)": 250,
+    "Restrict Access To Auth Level": 1,
+    "Restrict Access To Steam64 IDs": [],
+    "Use Bypass Permission": false,
+    "User Interface Enabled": true
+  },
+  "Voice Detection": {
+    "Detection Radius": 30.0,
+    "Enabled": true,
+    "Timeout After X Seconds": 3
+  }
+}

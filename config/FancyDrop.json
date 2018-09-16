@@ -1,0 +1,243 @@
+{
+  "Airdrop": {
+    "Default radius for location based massdrop": 0,
+    "Delay between Massdrop plane spawns": 0.33,
+    "Disable SupplySignal randomization": true,
+    "Massdrop default plane amount": 5,
+    "Multiplier for (plane height * highest point on Map); Default 1.0": 0.75,
+    "Multiplier for overall flight distance; lower means faster at map": 0.75,
+    "Players can shoot down the drop": false,
+    "Players can shoot down the drop - needed hits": 5,
+    "Prefab effect to use": "assets/bundled/prefabs/fx/survey_explosion.prefab",
+    "signal rocket explosion timer": 0,
+    "signal rocket speed": 0,
+    "Use special effect at reaching ground position": false
+  },
+  "DropLight": {
+    "Frequency for blinking": 0.25,
+    "remove Light once landed": false,
+    "Time for pause between blinking": 3.0,
+    "use SupplyDrop Light": false
+  },
+  "DropSettings": {
+    "DropDefault": {
+      "additionalheight": 0,
+      "crateAirResistance": 0.9,
+      "cratesGap": 50,
+      "despawnMinutes": 15,
+      "includeStaticItemList": false,
+      "includeStaticItemListName": "regular",
+      "includeStaticItemListOnly": false,
+      "itemDivider": 2,
+      "maxCrates": 1,
+      "maxItems": 18,
+      "minCrates": 1,
+      "minItems": 18,
+      "planeSpeed": 110,
+      "useCustomLootTable": false
+    },
+    "DropTypes": {
+      "custom_event": {
+        "additionalheight": 0,
+        "crateAirResistance": 0.9,
+        "cratesGap": 50,
+        "despawnMinutes": 15,
+        "fireSignalRocket": false,
+        "includeStaticItemList": false,
+        "includeStaticItemListName": "custom_event",
+        "includeStaticItemListOnly": false,
+        "itemDivider": 2,
+        "maxCrates": 1,
+        "maxItems": 18,
+        "minCrates": 1,
+        "minItems": 18,
+        "notificationInfo": "Custom Stuff",
+        "planeSpeed": 100,
+        "useCustomLootTable": true
+      },
+      "dropdirect": {
+        "additionalheight": 0,
+        "crateAirResistance": 0.9,
+        "cratesGap": 50,
+        "despawnMinutes": 15,
+        "fireSignalRocket": false,
+        "includeStaticItemList": false,
+        "includeStaticItemListName": "dropdirect",
+        "includeStaticItemListOnly": false,
+        "itemDivider": 2,
+        "maxCrates": 1,
+        "maxItems": 18,
+        "minCrates": 1,
+        "minItems": 18,
+        "planeSpeed": 100,
+        "useCustomLootTable": true
+      },
+      "massdrop": {
+        "additionalheight": 0,
+        "crateAirResistance": 0.9,
+        "cratesGap": 50,
+        "despawnMinutes": 15,
+        "fireSignalRocket": false,
+        "includeStaticItemList": false,
+        "includeStaticItemListName": "massdrop",
+        "includeStaticItemListOnly": false,
+        "itemDivider": 2,
+        "maxCrates": 1,
+        "maxItems": 18,
+        "minCrates": 1,
+        "minItems": 18,
+        "planeSpeed": 100,
+        "useCustomLootTable": true
+      },
+      "regular": {
+        "additionalheight": 0,
+        "crateAirResistance": 0.9,
+        "cratesGap": 50,
+        "despawnMinutes": 15,
+        "fireSignalRocket": false,
+        "includeStaticItemList": false,
+        "includeStaticItemListName": "regular",
+        "includeStaticItemListOnly": false,
+        "itemDivider": 2,
+        "maxCrates": 1,
+        "maxItems": 18,
+        "minCrates": 1,
+        "minItems": 18,
+        "planeSpeed": 100,
+        "useCustomLootTable": true
+      },
+      "supplysignal": {
+        "additionalheight": 0,
+        "crateAirResistance": 0.9,
+        "cratesGap": 50,
+        "despawnMinutes": 15,
+        "fireSignalRocket": false,
+        "includeStaticItemList": false,
+        "includeStaticItemListName": "supplysignal",
+        "includeStaticItemListOnly": false,
+        "itemDivider": 2,
+        "maxCrates": 1,
+        "maxItems": 18,
+        "minCrates": 1,
+        "minItems": 18,
+        "planeSpeed": 100,
+        "useCustomLootTable": true
+      }
+    }
+  },
+  "Generic": {
+    "Admin messages color": "silver",
+    "AuthLevel needed for console commands": 1,
+    "Broadcast messages color": "white",
+    "Chat/Message prefix": "Air Drop",
+    "GUI Announce command": "announce.announce",
+    "Lock DirectDrop to be looted only by target player": true,
+    "Lock SignalDrop to be looted only by target player": false,
+    "Prefix color": "cyan",
+    "Prefix format": "<color={0}>{1}</color>: ",
+    "Show message to admin after command usage": true,
+    "Time for active smoke of SupplySignal": 210.0,
+    "Unlock crates only after player stopped looting": false,
+    "version": "2.7.8"
+  },
+  "Notification": {
+    "Maximum distance in meters to get notified about landed Drop": 1000,
+    "Maximum distance in meters to get notified about looted Drop": 1000,
+    "Notify a player about incoming Drop to his location": false,
+    "Notify a player about spawned Drop at his location": false,
+    "Notify admins per chat about player who has thrown SupplySignal ": false,
+    "Notify console at Drop by SupplySignal": false,
+    "Notify console at timed-regular Drop": false,
+    "Notify console when a Drop is being looted": false,
+    "Notify console when Drop is landed": false,
+    "Notify console when Drop is spawned": false,
+    "Notify console when Drop landed/spawned only at the first": true,
+    "Notify players at custom/event Drop": false,
+    "Notify players at custom/event Drop including Coords": false,
+    "Notify players at Drop by SupplySignal": false,
+    "Notify players at Drop by SupplySignal including Coords ": false,
+    "Notify players at Massdrop": false,
+    "Notify players at Random/Timed Drop": false,
+    "Notify players at Random/Timed Drop including Coords": false,
+    "Notify players when a Drop is being looted": false,
+    "Notify players when a Drop is being looted including coords": false,
+    "Notify players when Drop is landed about distance": false,
+    "Notify Players who has thrown a SupplySignal": false,
+    "Notify Players who has thrown a SupplySignal including coords": false,
+    "use GUI Announcements for any Drop notification": false
+  },
+  "SimpleUI": {
+    "SimpleUI_Enable": false,
+    "SimpleUI_FontSize": 25,
+    "SimpleUI_HideTimer": 10,
+    "SimpleUI_Left": 0.1,
+    "SimpleUI_MaxHeight": 0.1,
+    "SimpleUI_MaxWidth": 0.8,
+    "SimpleUI_NoticeColor": "1 1 1 0.9",
+    "SimpleUI_ShadowColor": "0.1 0.1 0.1 0.5",
+    "SimpleUI_Top": 0.05
+  },
+  "StaticItems": {
+    "DropTypes": {
+      "custom_event": {
+        "itemDivider": 2,
+        "itemList": {
+          "explosive.timed": 10,
+          "grenade.f1": 10
+        }
+      },
+      "dropdirect": {
+        "itemDivider": 2,
+        "itemList": {
+          "explosive.timed": 4,
+          "surveycharge": 10
+        }
+      },
+      "massdrop": {
+        "itemDivider": 2,
+        "itemList": {
+          "explosive.timed": 4,
+          "grenade.f1": 10
+        }
+      },
+      "regular": {
+        "itemDivider": 2,
+        "itemList": {
+          "cctv.camera": 2,
+          "targeting.computer": 2
+        }
+      },
+      "supplysignal": {
+        "itemDivider": 2,
+        "itemList": {
+          "explosive.timed": 4,
+          "metal.refined": 100
+        }
+      }
+    }
+  },
+  "Timer": {
+    "Cleanup old Drops at serverstart": true,
+    "Maximum minutes for random timer delay ": 50,
+    "Minimum minutes for random timer delay ": 30,
+    "Minimum players for timed Drop": 2,
+    "Remove builtIn Airdrop": true,
+    "Reset Timer after manual random drop": false,
+    "Use Airdrop timer": true,
+    "Used Airdrop timer command": "random"
+  },
+  "Timers": {
+    "log to console": true,
+    "Minimum players for running Timers": 0,
+    "RealTime": {
+      "16:00": "massdrop 3",
+      "18:00": "toplayer *"
+    },
+    "ServerTime": {
+      "18": "massdropto 0 0 5 100",
+      "6": "massdrop 3"
+    },
+    "use RealTime": false,
+    "use ServerTime": false
+  }
+}

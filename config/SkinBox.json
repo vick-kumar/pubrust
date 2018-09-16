@@ -1,0 +1,62 @@
+{
+  "AvailableSkins": {
+    "approvedSkinsLimit": -1,
+    "MissingSkinNames": {
+      "chair": "Chair",
+      "fridge": "Fridge",
+      "mask.bandana": "Bandana",
+      "rug": "Rug",
+      "rug.bear": "Bearskin Rug",
+      "table": "Table"
+    },
+    "useApprovedSkins": true,
+    "usedRankedByTrendDays": 30,
+    "useInbuiltSkins": true,
+    "useManualAddedSkins": true,
+    "useWebskinsRankedByTrend": false
+  },
+  "Cooldown": {
+    "activateAfterSkinTaken": true,
+    "cooldownBox": 60,
+    "cooldownOverrideAdmin": true,
+    "cooldownOverrideAuthLevel": 2,
+    "enableCooldown": false
+  },
+  "CustomPermissions": {
+    "enableCustomPerms": true,
+    "permCustomDeployable": "skinbox.deployable",
+    "permCustomPlayerwearable": "skinbox.playerwearable",
+    "permCustomWeapon": "skinbox.weapon"
+  },
+  "Settings": {
+    "accessOverrideAuthLevel": 2,
+    "boxUseDistance": 10.0,
+    "exludedSkinsAuthLevel": 2,
+    "forceAlsoWearables": true,
+    "forceClientAlways": false,
+    "forceClientPreload": false,
+    "hideQuickSort": false,
+    "permissionUse": "skinbox.use",
+    "showLoadedSkinCounts": true,
+    "skinBoxCommand": "skinbox",
+    "steamApiKey": "26B20494C4F098D9CB85BA4991EA4F72"
+  },
+  "SkinsAdded": {
+    "SkinList": {}
+  },
+  "SkinsExcluded": {
+    "SkinList": []
+  },
+  "UsageCost": {
+    "costBoxOpen": 5,
+    "costDeployable": 10,
+    "costExcludeAdmins": true,
+    "costExcludePerm": "skinbox.costexcluded",
+    "costExcludePermEnabled": false,
+    "costPlayerwearable": 20,
+    "costWeapon": 30,
+    "enableUsageCost": false,
+    "useEconomics": false,
+    "useServerRewards": true
+  }
+}

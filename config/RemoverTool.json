@@ -1,0 +1,163 @@
+{
+  "Remove - Access - AuthLevel - Admin": 2,
+  "Remove - Access - AuthLevel - All": 2,
+  "Remove - Access - AuthLevel - Normal": 0,
+  "Remove - Access - AuthLevel - Override": 1,
+  "Remove - Access - AuthLevel - Target": 1,
+  "Remove - Access - Oxide Permissions - Admin": "removertool.admin",
+  "Remove - Access - Oxide Permissions - All": "removertool.all",
+  "Remove - Access - Oxide Permissions - Normal": "removertool.remove",
+  "Remove - Access - Oxide Permissions - Override": "removertool.override",
+  "Remove - Access - Oxide Permissions - Target": "removertool.target",
+  "Remove - Check held item - Always": false,
+  "Remove - Check held item - Start": true,
+  "Remove - Cooldown - Enabled": false,
+  "Remove - Cooldown - ExcludeAdmins": true,
+  "Remove - Cooldown - Time": 60.0,
+  "Remove - Distance - Admin": 20,
+  "Remove - Distance - All/Structure": 100,
+  "Remove - Distance - Normal": 3,
+  "Remove - Gibs - Admin": true,
+  "Remove - Gibs - All": false,
+  "Remove - Gibs - Normal": true,
+  "Remove - GUI - Authorization Check Hightlighting Box": true,
+  "Remove - GUI - Authorization Check Hightlighting Box - Allowed Background": "0.1 1 0.1 0.3",
+  "Remove - GUI - Authorization Check Hightlighting Box - Max Anchor (in Main Box)": "1 0.9",
+  "Remove - GUI - Authorization Check Hightlighting Box - Min Anchor (in Main Box)": "0 0.8",
+  "Remove - GUI - Authorization Check Hightlighting Box - Refused Background": "1 0.1 0.1 0.3",
+  "Remove - GUI - Entity - Box - Background Color": "0.1 0.1 0.1 0.98",
+  "Remove - GUI - Entity - Box - Max Anchor (in Main Box)": "1 0.9",
+  "Remove - GUI - Entity - Box - Min Anchor (in Main Box)": "0 0.8",
+  "Remove - GUI - Entity - Text - Max Anchor (in Entity Box)": "1 1",
+  "Remove - GUI - Entity - Text - Min Anchor (in Entity Box)": "0.05 0",
+  "Remove - GUI - Entity - Text - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Entity - Text - Text Size": 16,
+  "Remove - GUI - Main Box - Background Color": "0.1 0.1 0.1 0",
+  "Remove - GUI - Main Box - Max Anchor (in Rust Window)": "0.4 0.95",
+  "Remove - GUI - Main Box - Min Anchor (in Rust Window)": "0.1 0.65",
+  "Remove - GUI - Price": true,
+  "Remove - GUI - Price - Box - Background Color": "0.1 0.1 0.1 0.98",
+  "Remove - GUI - Price - Box - Max Anchor (in Main Box)": "1 0.80",
+  "Remove - GUI - Price - Box - Min Anchor (in Main Box)": "0 0.60",
+  "Remove - GUI - Price - Text - Max Anchor (in Price Box)": "0.3 1",
+  "Remove - GUI - Price - Text - Min Anchor (in Price Box)": "0.05 0",
+  "Remove - GUI - Price - Text - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Price - Text - Text Size": 16,
+  "Remove - GUI - Price - Text2 - Max Anchor (in Price Box)": "1 1",
+  "Remove - GUI - Price - Text2 - Min Anchor (in Price Box)": "0.35 0",
+  "Remove - GUI - Price - Text2 - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Price - Text2 - Text Size": 16,
+  "Remove - GUI - Refund": true,
+  "Remove - GUI - Refund - Box - Background Color": "0.1 0.1 0.1 0.98",
+  "Remove - GUI - Refund - Box - Max Anchor (in Main Box)": "1 0.60",
+  "Remove - GUI - Refund - Box - Min Anchor (in Main Box)": "0 0.40",
+  "Remove - GUI - Refund - Text - Max Anchor (in Refund Box)": "0.3 1",
+  "Remove - GUI - Refund - Text - Min Anchor (in Refund Box)": "0.05 0",
+  "Remove - GUI - Refund - Text - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Refund - Text - Text Size": 16,
+  "Remove - GUI - Refund - Text2 - Max Anchor (in Refund Box)": "1 1",
+  "Remove - GUI - Refund - Text2 - Min Anchor (in Refund Box)": "0.35 0",
+  "Remove - GUI - Refund - Text2 - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Refund - Text2 - Text Size": 16,
+  "Remove - GUI - Remove - Box - Background Color": "0.1 0.1 0.1 0.98",
+  "Remove - GUI - Remove - Box - Max Anchor (in Main Box)": "0.55 1",
+  "Remove - GUI - Remove - Box - Min Anchor (in Main Box)": "0 0.9",
+  "Remove - GUI - Remove - Text - Max Anchor (in Remove Box)": "1 1",
+  "Remove - GUI - Remove - Text - Min Anchor (in Remove Box)": "0.1 0",
+  "Remove - GUI - Remove - Text - Text Color": "1 0.1 0.1 0.98",
+  "Remove - GUI - Remove - Text - Text Size": 16,
+  "Remove - GUI - Timeleft - Box - Background Color": "0.1 0.1 0.1 0.98",
+  "Remove - GUI - Timeleft - Box - Max Anchor (in Main Box)": "1 1",
+  "Remove - GUI - Timeleft - Box - Min Anchor (in Main Box)": "0.55 0.9",
+  "Remove - GUI - Timeleft - Text - Max Anchor (in Timeleft Box)": "0.9 1",
+  "Remove - GUI - Timeleft - Text - Min Anchor (in Timeleft Box)": "0 0",
+  "Remove - GUI - Timeleft - Text - Text Color": "1 1 1 0.98",
+  "Remove - GUI - Timeleft - Text - Text Size": 16,
+  "Remove - Normal - Allowed Entities": {
+    "Metal": true,
+    "Stone": true,
+    "TopTier": true,
+    "Twigs": true,
+    "Wood": true
+  },
+  "Remove - Normal - Drop items from StorageContainer": true,
+  "Remove - Normal - Enable remove of not empty storages": true,
+  "Remove - Normal - Price": {
+    "Metal": {
+      "metal fragments": 75
+    },
+    "Stone": {
+      "stones": 50,
+      "wood": 10
+    },
+    "TopTier": {
+      "high quality metal": 5
+    },
+    "Twigs": {
+      "wood": 1
+    },
+    "Wood": {
+      "wood": 10
+    }
+  },
+  "Remove - Normal - PriceEnabled": true,
+  "Remove - Normal - RaidBlocker": true,
+  "Remove - Normal - RaidBlocker - By Buildings": true,
+  "Remove - Normal - RaidBlocker - By Surrounding Players": true,
+  "Remove - Normal - RaidBlocker - By Surrounding Players - Radius": 120,
+  "Remove - Normal - RaidBlocker - Time": 300,
+  "Remove - Normal - Refund": {
+    "Auto Turret": {
+      "auto turret": 1
+    },
+    "Bed": {
+      "bed": 1
+    },
+    "Furnace": {
+      "furnace": 1
+    },
+    "High External Stone Gate": {
+      "high external stone gate": 1
+    },
+    "High External Stone Wall": {
+      "high external stone wall": 1
+    },
+    "Large Wood Box": {
+      "large wood box": 1
+    },
+    "Metal": {
+      "metal fragments": 50
+    },
+    "Repair Bench": {
+      "repair bench": 1
+    },
+    "Sheet Metal Door": {
+      "sheet metal door": 1
+    },
+    "Stone": 50,
+    "Tool Cupboard": {
+      "tool cupboard": 1
+    },
+    "TopTier": {
+      "high quality metal": 2
+    },
+    "Twigs": {
+      "wood": 1
+    },
+    "Wood": {
+      "wood": 10
+    }
+  },
+  "Remove - Normal - RefundEnabled": true,
+  "Remove - Normal - Remove fractioned objects": false,
+  "Remove - Normal - Remove fractioned objects - exclude BuildingBlocks": true,
+  "Remove - Normal - Remove fractioned objects percentage": 90,
+  "Remove - Normal - Use Building Owners (You will need Building Owners plugin)": true,
+  "Remove - Normal - Use Clans": true,
+  "Remove - Normal - Use Entity Owners": true,
+  "Remove - Normal - Use Friends (Friends)": true,
+  "Remove - Normal - Use Friends (RustIO)": true,
+  "Remove - Normal - Use Tool Cupboards (strongly unrecommended)": false,
+  "Remove - Time - Default": 30,
+  "Remove - Time - Max": 300
+}

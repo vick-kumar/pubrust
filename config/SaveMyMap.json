@@ -1,0 +1,13 @@
+{
+  "Settings": {
+    "allowOutOfDateSaves": false,
+    "callOnServerSave": true,
+    "delayCallOnServerSave": 3,
+    "enableLoadOverride": true,
+    "numberOfSaves": 5,
+    "onServerSaveUseCoroutine": true,
+    "saveAfterLoadFile": true,
+    "saveCustomAfter": 1,
+    "saveInterval": 1200
+  }
+}

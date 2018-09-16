@@ -1,0 +1,22 @@
+{
+  "Icons": {
+    "iconMetal": "http://i.imgur.com/fVjzbag.png",
+    "iconRepair": "http://i.imgur.com/Nq6DNSX.png",
+    "iconStone": "http://i.imgur.com/S7Sl9oh.png",
+    "iconTopTier": "http://i.imgur.com/f0WklR3.png",
+    "iconWood": "http://i.imgur.com/F4XBBhY.png"
+  },
+  "Permission": {
+    "enablePermission": true,
+    "permissionName": "enhancedhammer.use"
+  },
+  "Settings": {
+    "defaultDisableTimer": 30,
+    "enableDistanceUpgrade": true,
+    "hammerHitCheckRefresh": 0.33,
+    "hammerHitRange": 3.0,
+    "pluginPrefix": "<color=orange>Enhanced Hammer</color>: ",
+    "UIAnchorMax": "0.34 0.13",
+    "UIAnchorMin": "0.32 0.09"
+  }
+}

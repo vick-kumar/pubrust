@@ -1,0 +1,11 @@
+{
+  "Settings": {
+    "box": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+    "cooldownMinutes": 1,
+    "maxRadius": 5000.0,
+    "pendingSeconds": 25.0,
+    "radiationMax": 1,
+    "slots": 12
+  },
+  "VERSION": "1.2.1"
+}

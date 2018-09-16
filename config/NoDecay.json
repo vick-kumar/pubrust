@@ -1,0 +1,24 @@
+{
+  "Debug": {
+    "outputToRcon": false
+  },
+  "Mutipliers": {
+    "armoredMultiplier": 0.0,
+    "barricadesMultiplier": 0.0,
+    "bbqMultiplier": 0.0,
+    "boatMultiplier": 0.0,
+    "boxMultiplier": 0.0,
+    "campfireMultiplier": 0.0,
+    "deployablesMultiplier": 0.0,
+    "furnaceMultiplier": 0.0,
+    "highStoneWallMultiplier": 0.0,
+    "highWoodWallMultiplier": 0.0,
+    "sedanMultiplier": 0.0,
+    "sheetMultiplier": 0.0,
+    "stoneMultiplier": 0.0,
+    "trapMultiplier": 0.0,
+    "twigMultiplier": 1.0,
+    "watchtowerMultiplier": 0.0,
+    "woodMultiplier": 0.0
+  }
+}

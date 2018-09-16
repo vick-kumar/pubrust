@@ -1,0 +1,10 @@
+{
+  "Chat - Message colour": "<color=white>",
+  "Chat - Title colour": "<color=orange>",
+  "GUI - All = per page": false,
+  "GUI - Label colour": "0.7 0.32 0.17 1",
+  "GUI - Off colour": "0.2 0.2 0.2 1",
+  "GUI - On colour": "0.7 0.32 0.17 1",
+  "Options - GUI Transparency 0-1": 0.5,
+  "Options - Plugin BlockList": "playerranks,botspawn"
+}

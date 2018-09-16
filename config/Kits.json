@@ -1,0 +1,47 @@
+{
+  "NPC - GUI Kits": {
+    "0": {
+      "description": "Welcome on this server! Here is a list of free kits that you can get.<color=green>Enjoy your stay</color>",
+      "kits": [
+        "kit1",
+        "kit2",
+        "build",
+        "pvpbasic",
+        "pvpplus",
+        "food",
+        "pvpelite",
+        "pvpscrub",
+        "signal"
+      ]
+    },
+    "1235439": {
+      "description": "Welcome on this server! Here is a list of free kits that you can get.<color=green>Enjoy your stay</color>",
+      "kits": [
+        "kit1",
+        "kit2"
+      ]
+    },
+    "8753201223": {
+      "description": "<color=red>VIPs Kits</color>",
+      "kits": [
+        "kit1",
+        "kit3"
+      ]
+    }
+  },
+  "CopyPaste - Parameters": [
+    "deployables",
+    "true",
+    "inventories",
+    "true"
+  ],
+  "Custom AutoKits": {
+    "0": "KitName",
+    "1": "KitName",
+    "2": "KitName"
+  },
+  "UI KeyBinding": "",
+  "Kit - Logging": false,
+  "Show All Kits": false,
+  "Background - URL": ""
+}

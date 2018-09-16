@@ -1,0 +1,16 @@
+{
+  "apiKey": "sFel5OfdGalr2DCpttINNqq3jgDCXwND",
+  "broadcastChat": true,
+  "broadcastDeaths": true,
+  "broadcastSpawns": true,
+  "defaultLanguage": "en",
+  "displayBuildings": false,
+  "displayMonuments": true,
+  "displayMortality": true,
+  "enableLocationSharing": true,
+  "helpMessage": "To locate yourself on the LIVEMAP, browse to <color=#CC3A2D>http://playrust.io</color> and type in this server's name!",
+  "hideSpecificMonuments": [
+    "mountain"
+  ],
+  "welcomeMessage": "To locate yourself on the LIVEMAP, browse to <color=#CC3A2D>http://playrust.io</color> and type in this server's name!"
+}

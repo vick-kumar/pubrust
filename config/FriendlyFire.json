@@ -1,0 +1,17 @@
+{
+  "messages": {
+    "%NAME% is your friend and cannot be hurt. To disable this, unshare your location with %NAME% on the live map or type: <color=\"#ffd479\">/ff on</color>": "%NAME% is your friend and cannot be hurt. To disable this, unshare your location with %NAME% on the live map or type: <color=\"#ffd479\">/ff on</color>",
+    "<color=\"#ffd479\">/ff on|off</color> - Toggles friendly fire <color=#cd422b>on</color> or <color=#8acd2b>off</color>": "<color=\"#ffd479\">/ff on|off</color> - Toggles friendly fire <color=#cd422b>on</color> or <color=#8acd2b>off</color>",
+    "<color=\"#ffd479\">/ff</color> - Displays your friendly fire status": "<color=\"#ffd479\">/ff</color> - Displays your friendly fire status",
+    "Friendly fire for your friends is already <color=#8acd2b>disabled</color>. They are safe!": "Friendly fire for your friends is already <color=#8acd2b>disabled</color>. They are safe!",
+    "Friendly fire for your friends is already <color=#cd422b>enabled</color>. Take care!": "Friendly fire for your friends is already <color=#cd422b>enabled</color>. Take care!",
+    "Friendly fire is <color=#8acd2b>disabled</color> for your friends:": "Friendly fire is <color=#8acd2b>disabled</color> for your friends:",
+    "Friendly fire is <color=#cd422b>enabled</color> for your friends:": "Friendly fire is <color=#cd422b>enabled</color> for your friends:",
+    "To toggle friendly fire on or off, type: <color=\"#ffd479\">/ff on|off</color>": "To toggle friendly fire on or off, type: <color=\"#ffd479\">/ff on|off</color>",
+    "Usage: <color=\"#ffd479\">/ff [on|off]</color>": "Usage: <color=\"#ffd479\">/ff [on|off]</color>",
+    "You do not have any friends currently.": "You do not have any friends currently.",
+    "You have <color=#8acd2b>disabled</color> friendly fire for your friends. They are safe!": "You have <color=#8acd2b>disabled</color> friendly fire for your friends. They are safe!",
+    "You have <color=#cd422b>enabled</color> friendly fire for your friends. Take care!": "You have <color=#cd422b>enabled</color> friendly fire for your friends. Take care!",
+    "You may add or delete friends using the live map.": "You may add or delete friends using the live map."
+  }
+}

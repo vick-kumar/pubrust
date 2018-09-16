@@ -1,0 +1,114 @@
+{
+  "Combat": {
+    "Block": {
+      "damageTypes": [
+        "Bullet",
+        "Arrow",
+        "Blunt",
+        "Stab",
+        "Slash",
+        "Explosion",
+        "Heat",
+        "ElectricShock"
+      ],
+      "duration": 60.0,
+      "enabled": true,
+      "notify": true
+    },
+    "BlockWhen": {
+      "giveDamage": true,
+      "takeDamage": true
+    },
+    "UnblockWhen": {
+      "death": true,
+      "respawn": true,
+      "wakeup": false
+    }
+  },
+  "Notifications": {
+    "Chat": true,
+    "GUIAnnouncements": {
+      "backgroundColor": "Red",
+      "enabled": false,
+      "textColor": "White"
+    },
+    "UI": true
+  },
+  "Raid": {
+    "Block": {
+      "damageTypes": [
+        "Bullet",
+        "Blunt",
+        "Stab",
+        "Slash",
+        "Explosion",
+        "Heat"
+      ],
+      "distance": 100.0,
+      "duration": 300.0,
+      "enabled": true,
+      "excludePrefabs": [
+        "ladder.wooden"
+      ],
+      "excludeWeapons": [
+        "torch"
+      ],
+      "includePrefabs": [
+        "door",
+        "window.bars",
+        "floor.ladder.hatch",
+        "floor.frame",
+        "wall.frame",
+        "shutter",
+        "external"
+      ],
+      "notify": true
+    },
+    "BlockExcept": {
+      "clan": false,
+      "friends": false,
+      "owner": false
+    },
+    "BlockWhen": {
+      "damage": false,
+      "destroy": true,
+      "unowned": false
+    },
+    "BlockWho": {
+      "clan": false,
+      "cupboardAuthorized": false,
+      "everyone": true,
+      "friends": false,
+      "owner": false,
+      "raider": false
+    },
+    "Map": {
+      "duration": 150.0,
+      "enabled": false,
+      "icon": "special"
+    },
+    "UnblockWhen": {
+      "death": true,
+      "respawn": true,
+      "wakeup": false
+    },
+    "Zone": {
+      "enabled": false,
+      "enter": true,
+      "leave": false
+    }
+  },
+  "Settings": {
+    "Block": {
+      "Types": [
+        "remove",
+        "tp",
+        "trade",
+        "bgrade",
+        "repair"
+      ]
+    },
+    "cacheMinutes": 1.0
+  },
+  "VERSION": "2.0.8"
+}

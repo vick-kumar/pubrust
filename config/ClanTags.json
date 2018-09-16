@@ -1,0 +1,9 @@
+{
+  "AfterTag": "]",
+  "BeforeTag": "[",
+  "defaultClanCol": "55aaff",
+  "PerClanColor": {
+    "ThisIsClanTag > That is color (dont use #) >": "55aaff",
+    "example": "00FF00"
+  }
+}

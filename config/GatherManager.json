@@ -1,0 +1,64 @@
+{
+  "Messages": {
+    "Dispensers": "Resource Dispensers",
+    "HelpText": "/gather - Shows you detailed gather information.",
+    "HelpTextAdmin": "To change the resources gained by gathering use the command:\r\ngather.rate <type:dispenser|pickup|quarry|survey> <resource> <multiplier>\r\nTo change the amount of resources in a dispenser type use the command:\r\ndispenser.scale <dispenser:tree|ore|corpse> <multiplier>\r\nTo change the time between Mining Quarry gathers:\r\nquarry.tickrate <seconds>",
+    "HelpTextMiningQuarrySpeed": "Time between Mining Quarry gathers: {0} second(s).",
+    "HelpTextPlayer": "Resources gained from gathering have been scaled to the following:",
+    "HelpTextPlayerDefault": "Default values.",
+    "HelpTextPlayerGains": "Resources gained from {0}:",
+    "InvalidArgumentsDispenserType": "Invalid arguments supplied! Use dispenser.scale <dispenser:tree|ore|corpse> <multiplier>",
+    "InvalidArgumentsGather": "Invalid arguments supplied! Use gather.rate <type:dispenser|pickup|quarry|survey> <resource> <multiplier>",
+    "InvalidArgumentsMiningQuarrySpeed": "Invalid arguments supplied! Use quarry.rate <time between gathers in seconds>",
+    "InvalidDispenser": "{0} is not a valid dispenser. Check gather.dispensers for a list of available options.",
+    "InvalidMiningQuarrySpeed": "You can't set the speed lower than 1 second!",
+    "InvalidModifier": "Invalid modifier supplied! The new modifier always needs to be bigger than 0!",
+    "InvalidResource": "{0} is not a valid resource. Check gather.resources for a list of available options.",
+    "MiningQuarries": "Mining Quarries",
+    "ModifyDispenser": "You have set the resource amount for {0} dispensers to x{1}",
+    "ModifyMiningQuarrySpeed": "The Mining Quarry will now provide resources every {0} seconds.",
+    "ModifyResource": "You have set the gather rate for {0} to x{1} from {2}.",
+    "ModifyResourceRemove": "You have reset the gather rate for {0} from {1}.",
+    "NotAllowed": "You don't have permission to use this command.",
+    "Pickups": "pickups",
+    "SurveyCharges": "Survey Charges"
+  },
+  "Options": {
+    "GatherDispenserModifiers": {
+      "Cloth": 5.0,
+      "Stones": 5.0,
+      "Wood": 5.0,
+      "High Quality Metal Ore": 5.0,
+      "Metal Ore": 5.0,
+      "Sulfur Ore": 5.0
+    },
+    "GatherResourceModifiers": {
+      "Cloth": 5.0,
+      "Stones": 5.0,
+      "Wood": 5.0,
+      "High Quality Metal Ore": 5.0,
+      "Metal Ore": 5.0,
+      "Sulfur Ore": 5.0
+    },
+    "MiningQuarryResourceTickRate": 5.0,
+    "PickupResourceModifiers": {
+      "Wood": 5.0,
+      "Stones": 5.0,
+      "Cloth": 5.0,
+      "High Quality Metal Ore": 5.0,
+      "Metal Ore": 5.0,
+      "Sulfur Ore": 5.0
+    },
+    "QuarryResourceModifiers": {
+      "High Quality Metal Ore": 5.0,
+      "Metal Ore": 5.0,
+      "Sulfur Ore": 5.0,
+      "Stone": 5.0
+    },
+    "SurveyResourceModifiers": {}
+  },
+  "Settings": {
+    "ChatPrefix": "Gather Manager",
+    "ChatPrefixColor": "#008000ff"
+  }
+}

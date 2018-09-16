@@ -1,0 +1,97 @@
+{
+  "Admin": {
+    "AnnounceTeleportToTarget": false,
+    "LocationRadius": 25,
+    "TeleportNearDefaultDistance": 30,
+    "UseableByModerators": true
+  },
+  "Home": {
+    "AllowAboveFoundation": true,
+    "AllowCave": false,
+    "AllowCraft": false,
+    "AllowIceberg": false,
+    "CheckFoundationForOwner": true,
+    "CheckValidOnList": false,
+    "Cooldown": 60,
+    "Countdown": 15,
+    "CupOwnerAllowOnBuildingBlocked": true,
+    "DailyLimit": -1,
+    "ForceOnTopOfFoundation": true,
+    "HomesLimit": 3,
+    "LocationRadius": 25,
+    "Pay": 0,
+    "UsableIntoBuildingBlocked": false,
+    "UsableOutOfBuildingBlocked": false,
+    "UseFriends": true,
+    "VIPCooldowns": {
+      "nteleportation.vip": 60,
+      "nteleportation.vip.pvpbasic": 60,
+      "nteleportation.vip.pvpplUs": 60,
+      "nteleportation.vip.pvpelite": 60,
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 10
+    },
+    "VIPDailyLimits": {
+      "nteleportation.vip": -1
+    },
+    "VIPHomesLimits": {
+      "nteleportation.vip": 10,
+      "nteleportation.vip.pvpbasic": 5,
+      "nteleportation.vip.pvpplUs": 7,
+      "nteleportation.vip.pvpelite": 12,
+    }
+  },
+  "Settings": {
+    "BlockedItems": {},
+    "ChatName": "<color=red>Teleportation</color>: ",
+    "HomesEnabled": true,
+    "InterruptTPOnHurt": true,
+    "TownEnabled": true,
+    "TPREnabled": true
+  },
+  "Town": {
+    "AllowCraft": false,
+    "Cooldown": 600,
+    "Countdown": 15,
+    "DailyLimit": 5,
+    "Location": "0 0 0",
+    "Pay": 0,
+    "UsableOutOfBuildingBlocked": false,
+    "VIPCooldowns": {
+      "nteleportation.vip": 5
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 5
+    },
+    "VIPDailyLimits": {
+      "nteleportation.vip": 5
+    }
+  },
+  "TPR": {
+    "AllowCraft": false,
+    "BlockTPAOnCeiling": true,
+    "Cooldown": 60,
+    "Countdown": 15,
+    "CupOwnerAllowOnBuildingBlocked": true,
+    "DailyLimit": -1,
+    "Pay": 0,
+    "RequestDuration": 30,
+    "UsableIntoBuildingBlocked": false,
+    "UsableOutOfBuildingBlocked": false,
+    "VIPCooldowns": {
+      "nteleportation.vip": 100
+    },
+    "VIPCountdowns": {
+      "nteleportation.vip": 100
+    },
+    "VIPDailyLimits": {
+      "nteleportation.vip": 100
+    }
+  },
+  "Version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 26
+  }
+}
