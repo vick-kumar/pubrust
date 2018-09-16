@@ -1,0 +1,501 @@
+[
+  {
+    "Name": "Armor",
+    "NumberToSpawn": 5,
+    "Probability": 1.0,
+    "Categories": {
+      "1": {
+        "Armor": {
+          "ArmorBasic": 0,
+          "ArmorMedium": 0,
+          "ArmorRare": 50
+        }
+      },
+      "2": {
+        "ArmorBasic": {
+          "hoodie": 0,
+          "pants": 0,
+          "tshirt.long": 0,
+          "WoodArmorSet": 00,
+          "diving": 10
+        },
+        "ArmorMedium": {
+          "coffeecan.helmet": 0,
+          "bucket.helmet": 0,
+          "jacket.snow": 0,
+          "riot.helmet": 0
+        },
+        "ArmorRare": {
+          "metal.plate.torso": 30,
+          "metal.facemask": 20,
+          "jacket": 0,
+          "HeavyArmorPieces": 0
+        }
+      },
+      "3": {
+        "diving": {
+          "diving.mask": 50,
+          "diving.tank": 30,
+          "diving.wetsuit": 20,
+          "diving.fins": 20
+        },
+        "HeavyArmorPieces": {
+          "heavy.plate.helmet": 1,
+          "heavy.plate.jacket": 1,
+          "heavy.plate.pants": 1
+        }
+      }
+    },
+    "Items": {
+      "hoodie": {
+        "hoodie": 0
+      },
+      "pants": {
+        "pants": 0
+      },
+      "tshirt.long": {
+        "tshirt.long": 0
+      },
+      "WoodArmorSet": {
+        "wood.armor.jacket": 0,
+        "wood.armor.pants": 0
+      },
+      "diving.mask": {
+        "diving.mask": 1
+      },
+      "diving.tank": {
+        "diving.tank": 1
+      },
+      "diving.wetsuit": {
+        "diving.wetsuit": 1
+      },
+      "diving.fins": {
+        "diving.fins": 1
+      },
+      "coffeecan.helmet": {
+        "coffeecan.helmet": 0
+      },
+      "bucket.helmet": {
+        "bucket.helmet": 0
+      },
+      "jacket.snow": {
+        "jacket.snow": 0
+      },
+      "riot.helmet": {
+        "riot.helmet": 0
+      },
+      "metal.plate.torso": {
+        "metal.plate.torso": 1
+      },
+      "metal.facemask": {
+        "metal.facemask": 1
+      },
+      "jacket": {
+        "jacket": 0
+      },
+      "heavy.plate.helmet": {
+        "heavy.plate.helmet": 0
+      },
+      "heavy.plate.jacket": {
+        "heavy.plate.jacket": 0
+      },
+      "heavy.plate.pants": {
+        "heavy.plate.pants": 0
+      }
+    }
+  },
+  {
+    "Name": "Ammo",
+    "NumberToSpawn": 4,
+    "Probability": 1.0,
+    "Categories": {
+      "1": {
+        "Ammo": {
+          "Pistol": 40,
+          "Rifle": 20,
+          "Shotgun": 0
+        }
+      },
+      "2": {
+        "Pistol": {
+          "PistolRegular": 50,
+          "PistolFire": 0,
+          "PistolHV": 0
+        },
+        "Rifle": {
+          "RifleRegular": 50,
+          "RifleFire": 20,
+          "RifleHV": 10,
+          "RifleEXP": 10
+        },
+        "Shotgun": {
+          "ShotgunShells": 0,
+          "ShotgunSlugs": 0,
+          "ShotgunIncendiary": 0
+        }
+      }
+    },
+    "Items": {
+      "PistolRegular": {
+        "ammo.pistol": 64
+      },
+      "PistolFire": {
+        "ammo.pistol.fire": 64
+      },
+      "PistolHV": {
+        "ammo.pistol.hv": 64
+      },
+      "RifleRegular": {
+        "ammo.rifle": 256
+      },
+      "RifleFire": {
+        "ammo.rifle.incendiary": 256
+      },
+      "RifleHV": {
+        "ammo.rifle.hv": 256
+      },
+      "RifleEXP": {
+        "ammo.rifle.explosive": 256
+      },
+      "ShotgunShells": {
+        "ammo.shotgun": 0
+      },
+      "ShotgunSlugs": {
+        "ammo.shotgun.slug": 0
+      },
+      "ShotgunIncendiary": {
+        "ammo.shotgun.fire": 0
+      }
+    }
+  },
+  {
+    "Name": "Collection.Weapons",
+    "NumberToSpawn": 2,
+    "Probability": 1.0,
+    "Categories": {
+      "1": {
+        "Collection.Weapons": {
+          "Collection.Rifles": 20,
+          "Items.Uncommon.Weapon": 100,
+          "Flamethrower": 0,
+          "Grenades": 0,
+          "Double Shotgun with ammo": 0
+        }
+      },
+      "2": {
+        "Collection.Rifles": {
+          "AK47 With Ammo": 64,
+          "SMG with Ammo": 64,
+          "Bolt Rifle With Ammo": 64,
+          "Custom Smg With Ammo": 64,
+          "LR300 With Ammo": 64,
+          "MP5 With Ammo": 64,
+          "M92 With Ammo": 64,
+          "Spas12 With Ammo": 64
+        },
+        "Items.Uncommon.Weapon": {
+          "weapon.mod.flashlight": 100,
+          "weapon.mod.simplesight": 100,
+          "weapon.mod.silencer": 100,
+          "grenade.beancan": 100,
+          "salvaged.cleaver": 0,
+          "crossbow": 0,
+          "grenade.f1": 100,
+          "Mace": 0,
+          "pistol.nailgun": 0,
+          "shotgun.waterpipe": 0,
+          "pistol.revolver": 0,
+          "spear.stone": 0,
+          "Longsword": 0
+        }
+      }
+    },
+    "Items": {
+      "AK47 With Ammo": {
+        "rifle.ak": 1,
+        "ammo.rifle": 30
+      },
+      "SMG with Ammo": {
+        "smg.thompson": 1,
+        "ammo.pistol": 0
+      },
+      "Bolt Rifle With Ammo": {
+        "rifle.bolt": 1,
+        "ammo.rifle": 4
+      },
+      "Custom Smg With Ammo": {
+        "smg.2": 1,
+        "ammo.pistol": 0
+      },
+      "LR300 With Ammo": {
+        "rifle.lr300": 1,
+        "ammo.rifle": 30
+      },
+      "MP5 With Ammo": {
+        "smg.mp5": 1,
+        "ammo.pistol": 30
+      },
+      "M92 With Ammo": {
+        "pistol.m92": 1,
+        "ammo.pistol": 10
+      },
+      "Spas12 With Ammo": {
+        "shotgun.spas12": 1,
+        "ammo.shotgun": 8
+      },
+      "weapon.mod.flashlight": {
+        "weapon.mod.flashlight": 1
+      },
+      "weapon.mod.simplesight": {
+        "weapon.mod.simplesight": 1
+      },
+      "weapon.mod.silencer": {
+        "weapon.mod.silencer": 1
+      },
+      "grenade.beancan": {
+        "grenade.beancan": 1
+      },
+      "salvaged.cleaver": {
+        "salvaged.cleaver": 0
+      },
+      "crossbow": {
+        "crossbow": 0
+      },
+      "grenade.f1": {
+        "grenade.f1": 1
+      },
+      "Mace": {
+        "mace": 0
+      },
+      "pistol.nailgun": {
+        "pistol.nailgun": 0
+      },
+      "shotgun.waterpipe": {
+        "shotgun.waterpipe": 0
+      },
+      "pistol.revolver": {
+        "pistol.revolver": 0
+      },
+      "spear.stone": {
+        "spear.stone": 0
+      },
+      "Longsword": {
+        "longsword": 0
+      },
+      "Flamethrower": {
+        "flamethrower": 1,
+        "lowgradefuel": 35
+      },
+      "Grenades": {
+        "grenade.f1": 1
+      },
+      "Double Shotgun with ammo": {
+        "shotgun.double": 0,
+        "ammo.shotgun": 0
+      }
+    }
+  },
+  {
+    "Name": "LootSpawn.SupplyDrop",
+    "NumberToSpawn": 3,
+    "Probability": 1.0,
+    "Categories": {
+      "1": {
+        "LootSpawn.SupplyDrop": {
+          "C4": 12,
+          "autoturret": 1,
+          "Ammo": 100,
+          "Collection.Weapons": 100,
+          "Traps": 10,
+          "HQMetal_Large": 100
+        }
+      },
+      "2": {
+        "Ammo": {
+          "Pistol": 40,
+          "Rifle": 20,
+          "Shotgun": 40
+        },
+        "Collection.Weapons": {
+          "Collection.Rifles": 20,
+          "Items.Uncommon.Weapon": 100,
+          "Flamethrower": 5,
+          "Grenades": 5,
+          "Double Shotgun with ammo": 0
+        }
+      },
+      "3": {
+        "Pistol": {
+          "PistolRegular": 256,
+          "PistolFire": 256,
+          "PistolHV": 256
+        },
+        "Rifle": {
+          "RifleRegular": 256,
+          "RifleFire": 256,
+          "RifleHV": 256,
+          "RifleEXP": 256
+        },
+        "Shotgun": {
+          "ShotgunShells": 50,
+          "ShotgunSlugs": 30,
+          "ShotgunIncendiary": 30
+        },
+        "Collection.Rifles": {
+          "AK47 With Ammo": 256,
+          "SMG with Ammo": 256,
+          "Bolt Rifle With Ammo": 256,
+          "Custom Smg With Ammo": 256,
+          "LR300 With Ammo": 256,
+          "MP5 With Ammo": 256,
+          "M92 With Ammo": 256,
+          "Spas12 With Ammo": 256
+        },
+        "Items.Uncommon.Weapon": {
+          "weapon.mod.flashlight": 5,
+          "barricade.metal": 15,
+          "weapon.mod.simplesight": 5,
+          "weapon.mod.silencer": 5,
+          "grenade.beancan": 5,
+          "salvaged.cleaver": 0,
+          "crossbow": 0,
+          "grenade.f1": 5,
+          "Mace": 0,
+          "pistol.nailgun": 0,
+          "shotgun.waterpipe": 0,
+          "pistol.revolver": 0,
+          "spear.stone": 0,
+          "Longsword": 0
+        }
+      }
+    },
+    "Items": {
+      "C4": {
+        "explosive.timed": 12
+      },
+      "autoturret": {
+        "autoturret": 1
+      },
+      "PistolRegular": {
+        "ammo.pistol": 256
+      },
+      "PistolFire": {
+        "ammo.pistol.fire": 256
+      },
+      "PistolHV": {
+        "ammo.pistol.hv": 256
+      },
+      "RifleRegular": {
+        "ammo.rifle": 256
+      },
+      "RifleFire": {
+        "ammo.rifle.incendiary": 256
+      },
+      "RifleHV": {
+        "ammo.rifle.hv": 256
+      },
+      "RifleEXP": {
+        "ammo.rifle.explosive": 256
+      },
+      "ShotgunShells": {
+        "ammo.shotgun": 0
+      },
+      "ShotgunSlugs": {
+        "ammo.shotgun.slug": 4
+      },
+      "ShotgunIncendiary": {
+        "ammo.shotgun.fire": 4
+      },
+      "AK47 With Ammo": {
+        "rifle.ak": 1,
+        "ammo.rifle": 256
+      },
+      "SMG with Ammo": {
+        "smg.thompson": 1,
+        "ammo.pistol": 256
+      },
+      "Bolt Rifle With Ammo": {
+        "rifle.bolt": 1,
+        "ammo.rifle": 256
+      },
+      "Custom Smg With Ammo": {
+        "smg.2": 1,
+        "ammo.pistol": 256
+      },
+      "LR300 With Ammo": {
+        "rifle.lr300": 1,
+        "ammo.rifle": 256
+      },
+      "MP5 With Ammo": {
+        "smg.mp5": 1,
+        "ammo.pistol": 256
+      },
+      "M92 With Ammo": {
+        "pistol.m92": 1,
+        "ammo.pistol": 256
+      },
+      "Spas12 With Ammo": {
+        "shotgun.spas12": 1,
+        "ammo.shotgun": 256
+      },
+      "weapon.mod.flashlight": {
+        "weapon.mod.flashlight": 1
+      },
+      "weapon.mod.simplesight": {
+        "weapon.mod.simplesight": 1
+      },
+      "weapon.mod.silencer": {
+        "weapon.mod.silencer": 1
+      },
+      "grenade.beancan": {
+        "grenade.beancan": 1
+      },
+      "salvaged.cleaver": {
+        "salvaged.cleaver": 0
+      },
+      "crossbow": {
+        "crossbow": 0
+      },
+      "grenade.f1": {
+        "grenade.f1": 1
+      },
+      "Mace": {
+        "mace": 0
+      },
+      "pistol.nailgun": {
+        "pistol.nailgun": 0
+      },
+      "shotgun.waterpipe": {
+        "shotgun.waterpipe": 0
+      },
+      "pistol.revolver": {
+        "pistol.revolver": 0
+      },
+      "spear.stone": {
+        "spear.stone": 0
+      },
+      "Longsword": {
+        "longsword": 0
+      },
+      "Flamethrower": {
+        "flamethrower": 1,
+        "lowgradefuel": 35
+      },
+      "Grenades": {
+        "grenade.f1": 2
+      },
+      "Double Shotgun with ammo": {
+        "shotgun.double": 1,
+        "ammo.shotgun": 5
+      },
+      "Traps": {
+        "trap.landmine": 3,
+        "trap.bear": 3,
+        "guntrap": 1
+      },
+      "HQMetal_Large": {
+        "metal.refined": 256
+      }
+    }
+  }
+]
